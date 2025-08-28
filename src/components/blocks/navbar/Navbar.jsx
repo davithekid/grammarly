@@ -14,8 +14,8 @@ export default function Navbar() {
 
                     <div className="dark:text-black flex items-center">
                         <ModeToggle/>   
-                        <Button className="w-40 ml-5 mr-5 font-bold bg-white hover:bg-zinc-200 duration-200 text-black  ">My Grammarly</Button>
-                        <Button className="w-40 bg-green-700 font-bold hover:bg-green-800/70 text-white">Start a Free Trial</Button>
+                        <Button className="cursor-pointer w-40 ml-5 mr-5 font-bold bg-white hover:bg-zinc-200 duration-200 text-black  ">My Grammarly</Button>
+                        <Button className="cursor-pointer w-40 bg-green-700 font-bold hover:bg-green-800/70 text-white">Start a Free Trial</Button>
                     </div>
                 </div>  
             </nav>
