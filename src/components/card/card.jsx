@@ -87,7 +87,7 @@ export default function CardPlano() {
 
                                     <div className="flex flex-col">
                                         <img src={card.img} alt={card.titulo} className="hidden lg:block mx-auto mb-4 rounded-full w-50 lg:w-80" />
-                                        <Button className="lg:hidden mt-5 w-50 bg-emerald-700 hover:bg-emerald-700/40 cursor-pointer">Adquirir</Button>
+                                        <Button className="lg:hidden mt-5 w-50 bg-emerald-700 hover:bg-emerald-700/40 cursor-pointer">Assinar</Button>
                                     </div>
                                 </div>
                             </div>
