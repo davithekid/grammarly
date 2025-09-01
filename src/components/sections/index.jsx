@@ -1,3 +1,4 @@
+import CardPlano from "../card/card";
 import { Button } from "../ui/button";
 
 export default function Principal() {
