@@ -74,20 +74,20 @@ export default function CardPlano() {
 
                 <section className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-6 mx-auto">
                     {cards.map((card) => (                        
-                        <div key={card.id} className="text-center flex p-4 bg-zinc-100 dark:bg-zinc-900 rounded-2xl  flex-row-reverse mx-auto border-2">
+                        <div key={card.id} className="text-center flex p-4 bg-zinc-100 dark:bg-zinc-900 rounded-2xl flex-row-reverse mx-auto border-2 hover:scale-105 duration-200">
                             <div className="flex flex-col lg:flex-row-reverse">
                                 <div className="flex flex-col justify-center items-center">
                                     <img src={card.img} alt={card.titulo} className="lg:hidden mx-auto mb-4 rounded-full w-50 lg:w-80" />
-                                    <h1 className="text-sm lg:text-2xl font-bold uppercase">{card.titulo}</h1>
-                                    <p className="text-sm lg:text-lg font-bold mt-1 underline ">{card.preco}</p>
+                                    <h1 className="text-sm lg:text-lg font-extrabold uppercase">{card.titulo}</h1>
+                                    <p className="text-sm lg:text-[17px] font-bold mt-1 underline ">{card.preco}</p>
                                     <p className="text-sm lg:text-lg py-3 lg:py-10">{card.descricao}</p>
-                                    <Button className="hidden lg:block w-40 bg-emerald-700 font-bold dark:text-white hover:bg-emerald-700/40 cursor-pointer">Adquirir</Button>
+                                    <Button className="hidden lg:block w-40 bg-emerald-700 font-bold dark:text-white hover:bg-emerald-700/40 cursor-pointer">Assinar</Button>
                                 </div>
                                 <div className="m-auto flex flex-col items-center ">
 
                                     <div className="flex flex-col">
                                         <img src={card.img} alt={card.titulo} className="hidden lg:block mx-auto mb-4 rounded-full w-50 lg:w-80" />
-                                        <Button className="lg:hidden mt-5 w-50 bg-emerald-700 hover:bg-emerald-700/40  cursor-pointer">Adquirir</Button>
+                                        <Button className="lg:hidden mt-5 w-50 bg-emerald-700 hover:bg-emerald-700/40 cursor-pointer">Adquirir</Button>
                                     </div>
                                 </div>
                             </div>
